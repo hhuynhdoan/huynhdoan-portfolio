@@ -49,7 +49,6 @@ export const Weather = () => {
     var today = new Date();
     var getToday = today.getDate();
 
-    // console.log(getToday);
     return (
        <div className="weather-wrapper">
             <div className="weather">
