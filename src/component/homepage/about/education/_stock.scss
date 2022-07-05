@@ -1,0 +1,145 @@
+.stock-wrapper{
+    transform: translateX(-.7rem);
+    margin-bottom: 1rem;
+    @media only screen and (max-width: 1080px) {
+        transform: unset;
+        margin-top: 2rem;
+    }
+    .stock{
+        width: 80%;
+        height: max-content;
+        background: rgba(255, 255, 255, 0.142);
+        border-radius: 25px;
+        display: block;
+        margin: 0 auto;
+        padding: 2rem;
+         /* From https://css.glass */
+        background: rgba(229, 229, 229, 0.11);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(12.8px);
+        -webkit-backdrop-filter: blur(12.8px);
+        border: 1px solid rgba(229, 229, 229, 0.459);
+        @media only screen and (max-width: 1080px) {
+            width: 90%;
+        }
+        &__items:last-child{
+            margin-bottom: 0;
+        }
+        &__items{
+            margin-bottom: .5rem;
+            ul{
+                justify-content: space-between;
+                .name{
+                    .name-details{
+                        font-weight: 900;
+                    }
+                }
+                .index{
+                    .index-sum{
+                        text-align: right;
+                    }
+                    .change{
+                        ul{
+                            display: flex;
+                            justify-content: space-between;
+                            .num{
+                                margin-right: 1.5rem;
+                            }
+                            .incr{
+                                color: #30E0A1;
+                            }
+                            .decr{
+                                color: #F6543E;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+.crypto-wrapper{
+    transform: translateX(-.7rem);
+    // margin-bottom: 2rem;
+    @media only screen and (max-width: 1080px) {
+        transform: unset;
+        margin-top: 2rem;
+    }
+    .crypto{
+        width: 80%;
+        height: max-content;
+        background: rgba(255, 255, 255, 0.142);
+        border-radius: 25px;
+        display: block;
+        margin: 0 auto;
+        padding: 2rem;
+         /* From https://css.glass */
+        background: rgba(229, 229, 229, 0.11);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(12.8px);
+        -webkit-backdrop-filter: blur(12.8px);
+        border: 1px solid rgba(229, 229, 229, 0.459);
+        @media only screen and (max-width: 1080px) {
+            width: 90%;
+        }
+        &__items:last-child{
+            margin-bottom: 0;
+        }
+        &__items{
+            margin-bottom: .5rem;
+            ul{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+                // grid-gap: 1rem;
+              
+                .crypto-name{
+                    align-items: left;
+                    display: flex;
+                
+                    img{
+                        width: 1rem;
+                        margin-right: 10px;
+                        height: auto;
+                        object-fit: contain;
+                    }
+                }
+                .crypto-c{
+                    text-align: center;
+                }
+                .change{
+                    text-align: right;
+                    .incr{
+                        color: #30E0A1;
+                    }
+                    .decr{
+                        color: #F6543E;
+                    }
+                }
+                .price{
+                    text-align: right;
+                }
+                
+            }
+        }
+    }
+}
+
+
+.incr{
+    color: #30E0A1;
+}
+.decr{
+    color: #F6543E;
+}
+
+.changeafter{
+    color: #FFFFFF;
+    font-weight: bolder;
+    // text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, -40px -10px 5px rgba(255,255,255,0);
+}

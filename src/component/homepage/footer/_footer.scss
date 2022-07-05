@@ -1,0 +1,48 @@
+.footer-wrapper{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: .5px solid #607B96;
+    background-color: #011627;
+    @media only screen and (max-width: 1080px) {
+    //    display: none;
+    }
+    .footer{
+        margin: 0 1rem;
+        display: flex;
+        justify-content: space-between;
+        &__left{
+            ul{
+                display: flex;
+
+                li{
+                    display: inline-flex;
+                    padding: 1rem;
+                    // border-right: .5px solid #607B96;
+                    img{
+                        display: block;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: auto;
+                        object-fit: contain;
+                    }
+                    
+                }
+            }
+        }
+
+        &__right{
+            border-left: .5px solid #607B96;
+            @media only screen and (max-width: 1080px) {
+               display: none;
+            }
+            ul{
+                display: flex;
+
+                li{
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+}

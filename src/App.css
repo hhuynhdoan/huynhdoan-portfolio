@@ -1,6 +1,185 @@
+/* @media only screen and (max-width: 1680px) {
+                                   
+} */
 .App {
-  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #fff;
+  /* padding: 2rem; */
 }
+html, body {
+  width: 100% ;
+  height: 100% ;
+  background: #011627 !important;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+@media only screen and (max-width: 1080px) {
+  html, body{
+    overflow-y: scroll;
+  }
+}
+
+
+input.hide-clear[type=search]::-ms-clear,
+input.hide-clear[type=search]::-ms-reveal {
+  display: none !important;
+  width: 0;
+  height: 0; 
+}
+
+/* clears the 'X' from Chrome */
+input.hide-clear[type="search"]::-webkit-search-decoration,
+input.hide-clear[type="search"]::-webkit-search-cancel-button,
+input.hide-clear[type="search"]::-webkit-search-results-button,
+input.hide-clear[type="search"]::-webkit-search-results-decoration {
+  display: none !important; 
+}        
+dl, ol, ul{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.font-500{
+  font-weight: 500;
+}
+
+.font-65{
+  font-size: 65px;
+}
+
+@media only screen and (max-width: 1680px) {
+  .font-65{
+    font-size: 50px !important;
+  }
+  .font-32{
+    font-size: 28px !important;
+  }
+}
+
+@media only screen and (max-width: 1520px) {
+  .font-65{
+    font-size: 45px !important;
+  }
+  .font-32{
+    font-size: 25px !important;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .font-65{
+    font-size: 75px !important;
+  }
+  .font-32{
+    font-size: 25px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .font-65{
+    font-size: 90px !important;
+    line-height: 4rem !important;
+  }
+  .font-32{
+    font-size: 18px !important;
+  }
+  .font-18{
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .font-65{
+    font-size: 70px !important;
+  }
+  
+}
+
+.font-32{
+  font-size: 32px;
+}
+
+.font-22{
+  font-size: 22px;
+}
+
+.font-18{
+  font-size: 18px;
+}
+
+.font-16{
+  font-size: 16px;
+}
+
+.font-14{
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none !important;
+  color: unset !important;
+}
+ul, li{
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.primary-bg{
+  background-color: #011221;
+}
+.second-bg{
+  background-color: #011627;
+}
+
+.primary-color{
+  color: #011221;
+}
+
+.second-color{
+  color: #607B96;
+}
+
+.text-violet{
+  color: #5565E8;
+}
+
+
+.text-purple{
+  color: #C98BDF;
+}
+
+.text-pink{
+  color: #E99287;
+}
+
+.text-orange{
+  color: #FEA55F;
+}
+
+
+.text-green{
+  color: #43D9AD;
+}
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* box-sizing and font sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
 
 .App-logo {
   height: 40vmin;

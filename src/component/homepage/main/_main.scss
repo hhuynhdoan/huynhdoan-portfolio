@@ -1,0 +1,106 @@
+.main-wrapper{
+    position: relative;
+    .main{
+        z-index: 8;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        width: 70%;
+        display: flex;
+        @media only screen and (max-width: 1080px) {
+            height: 100%;
+            flex-wrap: wrap;
+           width: 100%;
+           padding-left: 1rem;
+           padding-top: 2rem;
+        }
+        &__content{
+            flex: 1 50%; 
+            width: 50%;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+            align-self: center;
+            @media only screen and (max-width: 1080px) {
+                flex: 1 100%;
+                width: 100%;
+                transform: translate(7vw, 10vh);
+            }
+            @media only screen and (max-width: 600px) {
+                transform: translate(0, 10vh);
+            }
+            &-top{
+                margin-bottom: 4rem;
+                @media only screen and (max-width: 1520px) {
+                    margin-bottom: 2rem;
+                }
+                
+            }
+            &-bottom{
+                .text-top{
+                    span.a{
+                        @media only screen and (max-width: 1080px) {
+                            display: none;
+                        } 
+                    }
+                    .text-github{
+                        word-break: break-all;
+                    }
+                }
+            }
+        }
+        &__game{
+            flex: 1 50%;
+            width: 50%;
+            position: relative;
+            @media only screen and (max-width: 1080px) {
+                flex: 1 100%;
+                width: 100%;
+            }
+            img{
+                // margin: 0 auto;
+                // display: block;
+                // z-index: 2;
+            }
+        }
+    
+    }
+    .main-img{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        @media only screen and (max-width: 1080px) {
+            width: 80%;
+            height: 100vw;
+        }
+        @media only screen and (max-width: 600px) {
+            width: 200vw;
+        }
+        img{
+            position: absolute;
+            right: 0;
+            z-index: 1;
+            object-fit: contain;
+            object-position: center;
+            @media only screen and (max-width: 1080px) {
+                width: 100%;
+                height: auto;
+                transform: translate(10%, 10vh);
+
+            }
+            @media only screen and (max-width: 600px) {
+                transform: translate(-45vw, 1vh);
+                object-fit: cover;
+                margin: 0 auto;
+                display: block;
+            }
+            // width: 100%;
+            // height: auto;
+        }
+        
+    }
+}
