@@ -7,6 +7,7 @@
     z-index: 9;
     @media only screen and (max-width: 1080px) {
     //    display: none;
+    position: static;
     }
     .footer{
         margin: 0 1rem;

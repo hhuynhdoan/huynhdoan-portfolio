@@ -100,7 +100,7 @@ export const Project = () => {
             id: "5",
             name: "Porfolio",
             desc : "Personal Project",
-            link: "",
+            link: "https://hhuynhdoan-portfolio.herokuapp.com/",
             img: "/img/pj1.png",
             tag: ["html", "sass", "react"]
             

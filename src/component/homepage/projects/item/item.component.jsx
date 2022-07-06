@@ -4,7 +4,7 @@ export const Item = ({dataItem}) => {
     return(
         <div className="items">
             <div className="items__title">
-                <span className="font-18 font-500 text-violet">Project {dataItem.id}</span>
+                <span className="font-18 font-500 text-violet">Project {dataItem.id}</span> <br/>
                 <span className="font-16 font-500 second-color"> // _{dataItem.name}</span>
             </div>
             <div className="items__view">

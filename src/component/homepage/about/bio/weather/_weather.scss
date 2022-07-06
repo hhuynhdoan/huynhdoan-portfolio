@@ -31,7 +31,12 @@
                         grid-template-rows: repeat(1, 1fr);
                         place-items: center;
                         grid-gap: 1rem;
-
+                        @media only screen and (max-width: 420px) {
+                            grid-template-columns: repeat(4, 1fr);
+                            li:last-child{
+                                display: none;
+                            }
+                        }
                         li{
 
                             .day-or-night{
@@ -80,6 +85,7 @@
         @media only screen and (max-width: 1080px) {
             width: 90%;
         }
+       
         &__items{
             // margin-bottom: 1rem;
 

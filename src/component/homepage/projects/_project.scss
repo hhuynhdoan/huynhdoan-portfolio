@@ -173,15 +173,16 @@
                 position: relative;
                 display: grid;
                 grid-template-columns: repeat(3, 1fr) ;
+                grid-template-rows: repeat(5, 1fr);
                 grid-gap: 3em;
-                padding: 5% 7% 0 7%;
+                padding: 5% 7% 7% 7%;
                 z-index: 1;
-                // height: 100vh;
+                height: 100vh;
                 @media only screen and (max-width: 1440px) {
                     grid-template-columns: repeat(3, 1fr) ;
                 }
                 @media only screen and (max-width: 1080px) {
-                    padding: 1rem 1rem 0 1rem;
+                    padding: 1rem;
                 }
                 @media only screen and (max-width: 992px) {
                     grid-template-columns: repeat(2, 1fr) ;
