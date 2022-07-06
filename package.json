@@ -2,7 +2,7 @@
   "name": "huynhdoan-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://huynhdoan-portfolio.github.io/myporfolio/",
+  "homepage": "https://hhuynhdoan-portfolio.herokuapp.com/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
