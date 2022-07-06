@@ -13,31 +13,31 @@ export const Project = () => {
             id : '1',
             name : "ReactJS",
             tag : "react",
-            icon : "/img/react.png"
+            // icon : "/img/react.png"
         },
         {
             id : '2',
             name : "HTML",
             tag: "html",
-            icon: "/img/html.png"
+            // icon: "/img/html.png"
         },
         {
             id : '3',
             name : "SASS",
             tag : "sass",
-            icon : "/img/css.png"
+            // icon : "/img/css.png"
         },
         {
             id : '4',
             name : "Laravel",
             tag : "laravel",
-            icon : "/img/react.png"
+            // icon : "/img/react.png"
         },
         {
             id : '5',
             name : "Jquery",
             tag : "jquery",
-            icon : "/img/html.png"
+            // icon : "/img/html.png"
         },
         // {
         //     id : '6',
@@ -49,13 +49,13 @@ export const Project = () => {
             id : '7',
             name : "Ajax",
             tag : "ajax",
-            icon : "/img/html.png"
+            // icon : "/img/html.png"
         },
         {
             id : '8',
             name : "Wordpress",
             tag : "wordpress",
-            icon : "/img/html.png"
+            // icon : "/img/html.png"
         },
         
     ]
@@ -149,7 +149,7 @@ export const Project = () => {
                                         key={index}
                                         label={
                                             <div>
-                                                <img src={process.env.PUBLIC_URL + data.icon}/>
+                                                {/* <img src={process.env.PUBLIC_URL + data.icon}/> */}
                                                 <span className="font-16 font-50 second-color">{data.name}</span>
                                             </div>
                                         } 
