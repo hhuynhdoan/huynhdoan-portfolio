@@ -118,7 +118,7 @@ export const Contacts = () => {
                                 </button>
                             </span>
                         </div>
-                        <ul className={isActive ? "d-block font-16 font-500" : "d-none font-16 font-500"}>
+                        <ul className={isActive ? "display-table font-16 font-500" : "d-none font-16 font-500"}>
                             <li>
                                 <img src={process.env.PUBLIC_URL + "/img/mail-icon.png"}/>
                                 <a href="mailto:dntrh0425@gmail.com" className="second-color"> dntrh0425@gmail.com</a>
@@ -137,7 +137,7 @@ export const Contacts = () => {
                                 </button>
                             </span>
                         </div>
-                        <ul className={isActive2 ? "d-block font-16 font-500" : "d-none font-16 font-500"}>
+                        <ul className={isActive2 ? "display-table font-16 font-500" : "d-none font-16 font-500"}>
                             <li>
                                 <img src={process.env.PUBLIC_URL + "/img/redirect.png"}/>
                                 <a href="https://www.linkedin.com/in/huynh-doan-246552191/" className="second-color">linkedin</a>

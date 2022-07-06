@@ -177,6 +177,11 @@ ul, li{
 .text-green{
   color: #43D9AD;
 }
+
+
+.display-table{
+  display: table-caption;
+}
 /* Base reset */
 * {
   margin: 0;
