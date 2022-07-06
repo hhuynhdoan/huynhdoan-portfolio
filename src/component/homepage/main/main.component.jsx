@@ -31,7 +31,7 @@ export const Main = () => {
                     </div>
                 </div>
                 <div className="main__game">
-                    {/* <img src="./img/snake-game.png"/> */}
+                    
                 </div>
             </div>
             <div className="main-img">

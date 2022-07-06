@@ -18,25 +18,7 @@ function App() {
     </div>
   );
 }
-// class App extends Component{
-  
-//   // componentWillMount() {
-//   //   document.addEventListener("keydown", this.onKeyPressed.bind(this));
-//   // }
 
-//   // componentWillUnmount(){
-//   //   document.removeEventListener("keydown", this.onKeyPressed.bind(this));
-//   // }
-
-//   // onKeyPressed(e) {
-//   //   console.log(e.keyCode);
-//   // }
-
-//   render(){
-    
-    
-//   }
-// }
 
 
 
