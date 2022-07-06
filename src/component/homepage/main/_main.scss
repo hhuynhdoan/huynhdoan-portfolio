@@ -46,6 +46,9 @@
                     }
                     .text-github{
                         word-break: break-all;
+                        @media only screen and (max-width: 1680px) {
+                            margin-right: 3rem;
+                        }  
                     }
                 }
             }

@@ -201,6 +201,11 @@
                         left: 50%;
                         top: 50%;
                         transform: translate(-50%, 40%);
+                        @media only screen and (max-width: 1440px) {
+                           
+                            transform: translate(-50%, 30%);
+
+                        }
                         @media only screen and (max-width: 1080px) {
                             // position: relative;
                             top: 0;
@@ -310,7 +315,11 @@
                         left: 50%;
                         top: 50%;
                         transform: translate(-50%, 65%);
-                       
+                        @media only screen and (max-width: 1440px) {
+                           
+                            transform: translate(-50%, 40%);
+
+                        }
                         ol{
                             li{
                                 margin-left: 4rem;

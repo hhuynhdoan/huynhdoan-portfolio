@@ -56,6 +56,10 @@ dl, ol, ul{
   .font-32{
     font-size: 28px !important;
   }
+
+  .font-22{
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 1520px) {
@@ -64,6 +68,19 @@ dl, ol, ul{
   }
   .font-32{
     font-size: 25px !important;
+  }
+  .font-22{
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  
+  .font-18{
+    font-size: 16px !important;
+  }
+  .font-16{
+    font-size: 14px !important;
   }
 }
 @media only screen and (max-width: 1080px) {

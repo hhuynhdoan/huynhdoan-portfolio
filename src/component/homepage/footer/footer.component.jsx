@@ -10,7 +10,7 @@ export const Footer = () => {
                             My cv
                         </li> */}
                         <li className='second-color'>
-                            <a href='#' download>
+                            <a href={process.env.PUBLIC_URL + "/img/DOANNGOCTRUCHUYNH-CV.pdf"}>
                             My cv
                             <img src={process.env.PUBLIC_URL + "/img/redirect.png"}/>
                             </a>

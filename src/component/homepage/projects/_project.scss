@@ -62,7 +62,7 @@
                         }
                     }
                 }
-                .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{
+                .MuiCheckbox-root{
                     color: #607B96;
                 }
             }
@@ -156,20 +156,20 @@
                     //     padding: 0;
                     // }
                     span{
-                        .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+                        input{
                             color:  #607B96 !important;
                             font-size: 18px;
                             border: unset;
                             margin-right: 5px;
                         }
-                        .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+                        fieldset{
                             border: unset;
                         }
                     }
                 }
             }
             &-content{
-                // overflow-y: scroll;
+                overflow-y: scroll;
                 position: relative;
                 display: grid;
                 grid-template-columns: repeat(3, 1fr) ;
@@ -177,6 +177,9 @@
                 padding: 5% 7% 0 7%;
                 z-index: 1;
                 // height: 100vh;
+                @media only screen and (max-width: 1440px) {
+                    grid-template-columns: repeat(3, 1fr) ;
+                }
                 @media only screen and (max-width: 1080px) {
                     padding: 1rem 1rem 0 1rem;
                 }
