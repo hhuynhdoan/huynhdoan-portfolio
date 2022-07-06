@@ -25,7 +25,7 @@ export const Main = () => {
                                 // you can also see it on my Github page
                             </span>
                             <div className="text-github">
-                                <span className="text-violet">const</span> <span className="text-green">githubLink</span> <span className="text-orange"> <a href="https://github.com/hhuynhdoan/portfolio" className="text-orange"> = “https://github.com/hhuynhdoan/portfolio”</a></span>
+                                <span className="text-violet">const</span> <span className="text-green">githubLink</span> <span className="text-orange"> <a href="https://github.com/hhuynhdoan/myporfolio" className="text-orange"> = “https://github.com/hhuynhdoan/myporfolio”</a></span>
                             </div>
                         </div>
                     </div>
