@@ -11,7 +11,7 @@ export const Project = () => {
     const checkdata = [
         {
             id : '1',
-            name : "React",
+            name : "ReactJS",
             tag : "react",
             icon : "./img/react.png"
         },
@@ -39,34 +39,70 @@ export const Project = () => {
             tag : "jquery",
             icon : "./img/html.png"
         },
+        // {
+        //     id : '6',
+        //     name : "JS",
+        //     tag : "js",
+        //     icon : "./img/html.png"
+        // },
+        {
+            id : '7',
+            name : "Ajax",
+            tag : "ajax",
+            icon : "./img/html.png"
+        },
+        {
+            id : '8',
+            name : "Wordpress",
+            tag : "wordpress",
+            icon : "./img/html.png"
+        },
         
     ]
     const data=[
         {
             id: "1",
-            name: "Project name 1",
-            desc : "Duis aute irure dolor in velit esse cillum dolore.",
-            link: "#",
+            name: "Refa",
+            desc : "Ecommerce",
+            link: "https://refa.com.vn/",
             img: "./img/pj1.png",
-            tag: ["html", "sass"]
+            tag: ["html", "sass", "laravel", "jquery", "js", "ajax"]
             
         },
         {
             id: "2",
-            name: "Project name 2",
-            desc : "Duis aute irure dolor in velit esse cillum dolore.",
-            link: "#",
+            name: "Eurowindow Riverpark",
+            desc : "Wordpress",
+            link: "https://eurowindowriverpark.com/",
             img: "./img/pj1.png",
-            tag: ["html"]
+            tag: ["html", "sass", "jquery", "js", "wordpress"]
             
         },
         {
             id: "3",
-            name: "Project name 3",
-            desc : "Duis aute irure dolor in velit esse cillum dolore.",
-            link: "#",
+            name: "Thacogroup",
+            desc : "Blog",
+            link: "https://thacogroup.vn/",
             img: "./img/pj1.png",
-            tag: ["sass", "react"]
+            tag: ["html", "sass", "laravel", "jquery", "js", "ajax"]
+            
+        },
+        {
+            id: "4",
+            name: "BMW",
+            desc : "Microsite",
+            link: "https://bmw.dev.fsofts.com/",
+            img: "./img/pj1.png",
+            tag: ["html", "sass", "laravel", "jquery", "js", "ajax"]
+            
+        },
+        {
+            id: "5",
+            name: "Porfolio",
+            desc : "Personal Project",
+            link: "",
+            img: "./img/pj1.png",
+            tag: ["html", "sass", "react"]
             
         },
     ];

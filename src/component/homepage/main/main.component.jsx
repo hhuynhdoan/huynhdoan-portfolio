@@ -16,7 +16,7 @@ export const Main = () => {
                         </span>
                         <div className="font-32 text-violet font-500"> &#62; front end developer</div>
                     </div>
-                    <div className="main__content-bottom font-18 font-500">
+                    <div className="main__content-bottom font-16 font-500">
                         <div className="text-top">
                             <span className="second-color a">
                                 // complete the game to continue <br/>
@@ -25,7 +25,7 @@ export const Main = () => {
                                 // you can also see it on my Github page
                             </span>
                             <div className="text-github">
-                                <span className="text-violet">const</span> <span className="text-green">githubLink</span> <span className="text-orange"> <a href="https://github.com/example/url" className="text-orange"> = “https://github.com/example/url”</a></span>
+                                <span className="text-violet">const</span> <span className="text-green">githubLink</span> <span className="text-orange"> <a href="https://github.com/hhuynhdoan/portfolio" className="text-orange"> = “https://github.com/hhuynhdoan/portfolio”</a></span>
                             </div>
                         </div>
                     </div>

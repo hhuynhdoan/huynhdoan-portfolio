@@ -6,14 +6,14 @@ export const Footer = () => {
             <div className="footer">
                 <div className="footer__left">
                     <ul>
-                        <li className="second-color">
-                            find me in:
-                        </li>
-                        <li>
-                            <img src="./img/fb.png" />
-                        </li>
-                        <li>
-                            <img src="./img/tw.png" />
+                        {/* <li className="second-color">
+                            My cv
+                        </li> */}
+                        <li className='second-color'>
+                            <a href='#' download>
+                            My cv
+                            <img src="./img/redirect.png"/>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -21,7 +21,9 @@ export const Footer = () => {
                 <div className="footer__right second-color">
                     <ul>
                         <li>
-                            @hhuynhdoan 
+                            <a href='https://github.com/hhuynhdoan'>
+                                @hhuynhdoan 
+                            </a>
                         </li>
                         <li>
                          <img src="./img/git.png" />

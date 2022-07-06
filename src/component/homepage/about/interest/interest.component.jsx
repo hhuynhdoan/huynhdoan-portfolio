@@ -8,9 +8,6 @@ import { SideBar } from "../sidebarmain.component";
 
 
 export const Interest = () => {
-
-   
-    
     return (
         <div className="about_wrapper">
             <div className="about">

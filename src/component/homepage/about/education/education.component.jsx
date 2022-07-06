@@ -6,6 +6,7 @@ import { Intro } from "../intro.component";
 import { MultiLevelMenu } from "../sidebar/sidebar.component";
 import { SideBar } from "../sidebarmain.component";
 import { Crypto } from "./crypto/crypto.component";
+import { Edu } from "./intro-edu.component";
 import { Stock } from "./stock/stock.component";
 import './_stock.scss';
 
@@ -34,7 +35,7 @@ export const Education = () => {
                             </div>
                         </div>
                         <div className="main__content">
-                            <Intro/>
+                            <Edu/>
                             <div className="main__content-right">
                                 <Stock/>
                                 <Crypto/>

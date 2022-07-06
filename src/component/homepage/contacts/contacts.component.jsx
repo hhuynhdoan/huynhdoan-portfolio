@@ -140,8 +140,7 @@ export const Contacts = () => {
                         <ul className={isActive2 ? "d-block font-16 font-500" : "d-none font-16 font-500"}>
                             <li>
                                 <img src="./img/redirect.png"/>
-
-                                <a href="mailto:dntrh0425@gmail.com" className="second-color"> dntrh0425@gmail.com</a>
+                                <a href="https://www.linkedin.com/in/huynh-doan-246552191/" className="second-color">linkedin</a>
                             </li>
                            
                         </ul>

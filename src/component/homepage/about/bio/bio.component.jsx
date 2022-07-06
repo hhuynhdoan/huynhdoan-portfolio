@@ -28,7 +28,7 @@ export const Bio = () => {
                         <div className="main__top">
                             <div className="tag-left">
                                 <span className="second-color">
-                                    bio
+                                    About me
                                 </span>
                             </div>
                             <div className="tag-right">

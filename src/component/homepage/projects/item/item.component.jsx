@@ -16,7 +16,7 @@ export const Item = ({dataItem}) => {
                         <span className="font-18 font-500 second-color">{dataItem.desc}</span>
                     </div>
                     <button className="font-16 font-500 second-color">
-                        <a href={dataItem.link}>
+                        <a href={dataItem.link} _blank>
                         view-project
                         </a>
                     </button>
