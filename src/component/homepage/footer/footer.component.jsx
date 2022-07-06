@@ -12,7 +12,7 @@ export const Footer = () => {
                         <li className='second-color'>
                             <a href='#' download>
                             My cv
-                            <img src="./img/redirect.png"/>
+                            <img src={process.env.PUBLIC_URL + "/img/redirect.png"}/>
                             </a>
                         </li>
                     </ul>
@@ -26,7 +26,7 @@ export const Footer = () => {
                             </a>
                         </li>
                         <li>
-                         <img src="./img/git.png" />
+                         <img src={process.env.PUBLIC_URL + "/img/git.png"} />
                         </li>
                     </ul>
                 </div>

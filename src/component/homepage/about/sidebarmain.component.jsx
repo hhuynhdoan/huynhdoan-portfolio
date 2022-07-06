@@ -9,13 +9,13 @@ export const SideBar = () => {
     const menus = [
         {
         label: "personal-info",
-        icon: "./img/down1.png",
+        icon: "/img/down1.png",
         path: '#',
         submenu: [
         {
             label: "about-me",
         //   icon: "./img/down2.png",
-            icon2: "./img/folder2.png",
+            icon2: "/img/folder2.png",
             path: '/about-me',
             component: "bio",
             exact: true,
@@ -31,7 +31,7 @@ export const SideBar = () => {
         {
             label: "education",
         //   icon: "./img/down2.png",
-            icon2: "./img/folder3.png",
+            icon2: "/img/folder3.png",
             path: '/education',
             exact: true,
         //   submenu: [
@@ -47,16 +47,16 @@ export const SideBar = () => {
         },
         {
         label: "contacts",
-        icon: "./img/down1.png",
+        icon: "/img/down1.png",
         path: '#',
         submenu: [
             {
             mail: "dntrh0425@gmail.com",
-            icon: "./img/mail-icon.png"
+            icon: "/img/mail-icon.png"
             },
             {
             phone: "0949844291",
-            icon: "./img/phone-icon.png"
+            icon: "/img/phone-icon.png"
             }
         ]
         },  

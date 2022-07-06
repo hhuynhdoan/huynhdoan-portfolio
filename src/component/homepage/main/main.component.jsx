@@ -35,7 +35,7 @@ export const Main = () => {
                 </div>
             </div>
             <div className="main-img">
-                <img src="./img/bg-blur.png"/>
+                <img src={process.env.PUBLIC_URL + "/img/bg-blur.png"}/>
             </div>
             <Game></Game>
         </div>

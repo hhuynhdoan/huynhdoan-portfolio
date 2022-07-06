@@ -189,7 +189,7 @@ export const Game = () => {
     return (
         <div className="game-wrapper">
             <div className="game">
-                <img src="./img/bg-game.png" className="bg-game"/>
+                <img src={process.env.PUBLIC_URL + "/img/bg-game.png"} className="bg-game"/>
                 <div className="game__content">
                     <div className="game__content-left">
                         {/* <div className="gamestart text-uppercase">click start game to play!</div> */}
@@ -218,18 +218,18 @@ export const Game = () => {
                             <div className="keyboard-move">
                                 <div className="keyboard-move__up">
                                     <button className="">
-                                        <img src="./img/up.png"/>
+                                        <img src={process.env.PUBLIC_URL + "/img/up.png"}/>
                                     </button>
                                 </div>
                                 <div className="keyboard-move__items">
                                     <button>
-                                        <img src="./img/left.png"/>
+                                        <img src={process.env.PUBLIC_URL + "/img/left.png"}/>
                                     </button>
                                     <button>
-                                        <img src="./img/down.png"/>
+                                        <img src={process.env.PUBLIC_URL + "/img/down.png"}/>
                                     </button>
                                     <button>
-                                        <img src="./img/right.png"/>
+                                        <img src={process.env.PUBLIC_URL + "/img/right.png"}/>
                                     </button>
                                 </div>
                                 {/* <Button 

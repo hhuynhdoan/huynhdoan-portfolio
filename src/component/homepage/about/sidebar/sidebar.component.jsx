@@ -81,8 +81,14 @@ export const MultiLevelMenu = ({menus}) => {
             {/* {hasSubMenu && (
              <Arrow/>
             )} */}
-            <img src={data.icon}/>
-            <img src={data.icon2}/>
+            {
+              data.icon ? <img src={process.env.PUBLIC_URL + data.icon}/> : null
+            }
+            
+            {
+              data.icon2 ? <img src={process.env.PUBLIC_URL + data.icon2}/> : null 
+            }
+            
             <NavLink to={`${data.path}`} className={({ isActive }) => isActive ? "active" : ""}>
               <Label 
                 // className = {

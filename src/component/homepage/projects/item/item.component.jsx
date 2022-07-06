@@ -9,7 +9,7 @@ export const Item = ({dataItem}) => {
             </div>
             <div className="items__view">
                 <div className="items__view-img">
-                    <img src={dataItem.img} />
+                    <img src={process.env.PUBLIC_URL + dataItem.img} />
                 </div>
                 <div className="items__view-content">
                     <div className="project-name">
