@@ -23,8 +23,6 @@ export const Contacts = () => {
         setActive2(!isActive2)
     }
 
-
-    // const {name, setName, email, setEmail, message, setMessage} = useBetween(shareInfo);
     
 
     const currentDate = new Date();
