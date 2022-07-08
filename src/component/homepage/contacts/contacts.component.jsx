@@ -217,17 +217,17 @@ export const Contacts = () => {
                                         )}
                                     </label>
                                     <button type="submit" onClick={(e) => {
-                                        if(!name){
+                                        if(!name & !message && !email){
                                             // if(handleSendMail){
                                             //     handleActive();
                                             // }
                                             handleSubmit();
                                             // handleActive();
-                                            handleSendMail();
+                                            // handleSendMail();
                                         }
                                         else{
-                                            handleActive();
                                             handleSubmit();
+                                            handleActive();
                                             handleSendMail();
                                         }
                                     }}>
