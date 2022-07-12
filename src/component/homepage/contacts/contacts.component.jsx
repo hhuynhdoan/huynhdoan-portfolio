@@ -37,14 +37,14 @@ export const Contacts = () => {
         },
         validationSchema: Yup.object({
             name: Yup.string()
-              .min(2, "Mininum 2 characters")
+              .min(1, "Mininum 1 characters")
               .max(15, "Maximum 15 characters")
               .required("Please fill your name!"),
             email: Yup.string()
               .email("Invalid email format")
               .required("Please fill your email!"),
             message: Yup.string()
-                .min(2, "Mininum 2 characters")
+                .min(1, "Mininum 1 characters")
                 .max(500, "Maximum 15 characters")
                 .required("Please fill your message!"),
         }),
@@ -85,9 +85,11 @@ export const Contacts = () => {
             const jsonJobs = JSON.stringify(newInfo)
             localStorage.setItem('info', jsonJobs)
 
+            // buttonRef.current.disabled = true;
             return newInfo
         })
         setInfo('')
+        
     }
 
 
@@ -102,7 +104,13 @@ export const Contacts = () => {
         });
     }
 
-    
+
+    const buttonRef = useRef();
+
+    const disableButton = () =>{
+        buttonRef.current.disabled = true; 
+    }
+    // console.log(name);
 
     return (
         <div className="contacts-wrapper">
@@ -215,13 +223,10 @@ export const Contacts = () => {
                                         )}
                                     </label>
                                     <button type="submit" onClick={(e) => {
-                                        if(!name & !message && !email){
-                                            // if(handleSendMail){
-                                            //     handleActive();
-                                            // }
+                                        if(!name || !message || !email){
                                             handleSubmit();
-                                            // handleActive();
-                                            // handleSendMail();
+                                           
+                                        
                                         }
                                         else{
                                             handleSubmit();
@@ -288,17 +293,9 @@ export const Contacts = () => {
                                         <span> </span>
                                         <span className="text-orange">
 	                                        "
-                                            {/* {nameE} */}
-                                            {/* {console.log(info[0].name)} */}
+                                            
                                             {(info.length !== 0) ? info[info.length - 1].name : name}
-                                            {/* {() => {
-                                                if(info.length > 1){
-                                                    return info[info.length - 1].name
-                                                }
-                                                else{
-                                                   return name
-                                                }
-                                            }} */}
+                                           
                                             " 
                                         </span>
                                             ,      
