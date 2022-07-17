@@ -192,8 +192,7 @@ export const Game = () => {
                 <img src={process.env.PUBLIC_URL + "/img/bg-game.png"} className="bg-game"/>
                 <div className="game__content">
                     <div className="game__content-left">
-                        {/* <div className="gamestart text-uppercase">click start game to play!</div> */}
-                        {/* <div className="gameover text-uppercase">game over !!!</div> */}
+                      
                         {alive ? (
                             <div className='game-on'>
                                 <Snake snakeDots={snakeDots} />
@@ -205,9 +204,7 @@ export const Game = () => {
                                 <Button onClick={rePlay}>{name}</Button>
                             </div>
                         )}
-                        {/* <Food />
-                        <Snake/>
-                        <button className="font-18 font-500">start game</button> */}
+                       
                     </div>
                     <div className="game__content-right">
                         <div className="game__content-right--top">
@@ -232,19 +229,14 @@ export const Game = () => {
                                         <img src={process.env.PUBLIC_URL + "/img/right.png"}/>
                                     </button>
                                 </div>
-                                {/* <Button 
-                                    onDown={onDown}
-                                    onLeft={onLeft}
-                                    onRight={onRight}
-                                    onUp={onUp}
-                                /> */}
+                               
                             </div>
                         </div>
                         <div className="game__content-right--middle">
                             <span className="font-18 font-500">
                             // your core:    
                             </span>
-                            {/* <br/> */}
+                           
                             {
                                 alive ? 
                                 <span className="font-32 font-500">
@@ -256,9 +248,6 @@ export const Game = () => {
                                 </span>
                             }
                            
-                            {/* <div className="food">
-                                <img src="./img/food.png" />
-                            </div> */}
                         </div>
                         <div className="game__content-right--bottom">
                             {/* <button className="font-18 font-500">skip</button> */}

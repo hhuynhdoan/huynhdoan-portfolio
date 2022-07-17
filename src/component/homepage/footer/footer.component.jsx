@@ -6,9 +6,6 @@ export const Footer = () => {
             <div className="footer">
                 <div className="footer__left">
                     <ul>
-                        {/* <li className="second-color">
-                            My cv
-                        </li> */}
                         <li className='second-color'>
                             <a href={process.env.PUBLIC_URL + "/img/DOANNGOCTRUCHUYNH-CV.pdf"}>
                             My cv

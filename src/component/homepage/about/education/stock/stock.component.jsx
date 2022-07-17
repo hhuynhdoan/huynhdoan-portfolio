@@ -76,9 +76,7 @@ export const Stock = () => {
                                                                 <span className={ !change ? 'font-22 font-500 decr' : 'font-22 font-500 decr' }>
                                                                     {stock.index}
                                                                 </span>
-
                                                         }
-                                                        
                                                     </div>
                                                     <div className='change'>
                                                         <ul>
