@@ -14,12 +14,11 @@ export const Footer = () => {
                         </li>
                     </ul>
                 </div>
-
                 <div className="footer__right second-color">
                     <ul>
                         <li>
                             <a href='https://github.com/hhuynhdoan'>
-                                @hhuynhdoan 
+                                @hhuynhdoan
                             </a>
                         </li>
                         <li>
